@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+
+	.highlight {
+	 
+	  -webkit-animation: play .8s steps(10) ;
+	     -moz-animation: play .8s steps(10) ;
+	      -ms-animation: play .8s steps(10) ;
+	       -o-animation: play .8s steps(10) ;
+	          animation: play .8s steps(10) ;
+	}
+	.highlight2 {
+	 
+	  -webkit-animation: play2 .8s steps(10) ;
+	     -moz-animation: play2 .8s steps(10) ;
+	      -ms-animation: play2 .8s steps(10) ;
+	       -o-animation: play2 .8s steps(10) ;
+	          animation: play2 .8s steps(10) ;
+	}
+	.hi {
+	    width: 50px;
+	    height: 72px;
+	    background-image: url("http://s.cdpn.io/79/sprite-steps.png");
+	    
+
+	}
+	.hi1 {
+	    width: 50px;
+	    height: 72px;
+	    background-image: url("http://s.cdpn.io/79/sprite-steps.png");
+	    
+
+	}
+	.hi2 {
+	    width: 50px;
+	    height: 72px;
+	    background-image: url("http://s.cdpn.io/79/sprite-steps.png");
+	    
+
+	}
+	.hi3 {
+	    width: 50px;
+	    height: 72px;
+	    background-image: url("http://s.cdpn.io/79/sprite-steps.png");
+	    
+
+	}
+	.hi4{
+		width: 50px;
+		height: 72px;
+		background-image: url("http://s.cdpn.io/79/sprite-steps.png");
+		
+	}
+
+	@-webkit-keyframes play {
+	   from { background-position:    0px; }
+	     to { background-position: -500px; }
+	}
+
+	@-moz-keyframes play {
+	   from { background-position:    0px; }
+	     to { background-position: -500px; }
+	}
+
+	@-ms-keyframes play {
+	   from { background-position:    0px; }
+	     to { background-position: -500px; }
+	}
+
+	@-o-keyframes play {
+	   from { background-position:    0px; }
+	     to { background-position: -500px; }
+	}
+
+	@keyframes play {
+	   from { background-position:    0px; }
+	     to { background-position: -500px; }
+	}
+
+	@-webkit-keyframes play2 {
+	   from { background-position:    0px; }
+	     to { background-position: -500px; }
+	}
+
+	@-moz-keyframes play2 {
+	   from { background-position:    0px; }
+	     to { background-position: -500px; }
+	}
+
+	@-ms-keyframes play2 {
+	   from { background-position:    0px; }
+	     to { background-position: -500px; }
+	}
+
+	@-o-keyframes play2 {
+	   from { background-position:    0px; }
+	     to { background-position: -500px; }
+	}
+
+	@keyframes play2 {
+	   from { background-position:    0px; }
+	     to { background-position: -500px; }
+	}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<img src="http://s.cdpn.io/79/sprite-steps.png" />
+
+	<div class="hi"></div>
+	<div class="hi1"></div>
+	<div class="hi2"></div>
+	<div class="hi3"></div>
+	<div class="hi4"></div>
+	<script>
+	asd();
+	setInterval(asd, 800);
+	function asd(){
+	 $('.hi').toggleClass('highlight');
+	 $('.hi2').toggleClass('highlight');
+	 $('.hi4').toggleClass('highlight');	
+	}
+	setInterval(def, 800);
+	function def(){
+	$('.hi1').toggleClass('highlight2');
+	$('.hi3').toggleClass('highlight2');
+	}
+
+	// setInterval(function(){
+
+	 
+	//   $('.hi1').addClass('highlight2');
+	//   $('.hi3').addClass('highlight2');
+	//   $('.hi').removeClass('highlight');
+	//   $('.hi2').removeClass('highlight');
+	//   $('.hi4').removeClass('highlight');
+	 
+
+	// }, 8000);
+	
+
+	</script>
+</body>
+</html>
